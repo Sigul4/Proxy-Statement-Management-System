@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 0 0% 3.9%;
+
+		--card: 0 0% 100%;
+		--card-foreground: 0 0% 3.9%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 0 0% 3.9%;
+
+		--primary: 196 28% 41%;
+		--primary-foreground: 0 0% 98%;
+
+		--secondary: 0 0% 96.1%;
+		--secondary-foreground: 0 0% 9%;
+
+		--muted: 0 0% 96.1%;
+		--muted-foreground: 0 0% 45.1%;
+
+		--accent: 0 0% 96.1%;
+		--accent-foreground: 0 0% 9%;
+
+		--destructive: 0 84.2% 60.2%;
+		--destructive-foreground: 0 0% 98%;
+
+		--border: 0 0% 89.8%;
+		--input: 0 0% 89.8%;
+		--ring: 0 0% 3.9%;
+
+		--radius: 0.5rem;
+	}
+
+	.dark {
+		--background: 0 0% 3.9%;
+		--foreground: 0 0% 98%;
+
+		--card: 0 0% 3.9%;
+		--card-foreground: 0 0% 98%;
+
+		--popover: 0 0% 3.9%;
+		--popover-foreground: 0 0% 98%;
+
+		--primary: 0 0% 98%;
+		--primary-foreground: 0 0% 9%;
+
+		--secondary: 0 0% 14.9%;
+		--secondary-foreground: 0 0% 98%;
+
+		--muted: 0 0% 14.9%;
+		--muted-foreground: 0 0% 63.9%;
+
+		--accent: 0 0% 14.9%;
+		--accent-foreground: 0 0% 98%;
+
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 0 0% 98%;
+
+		--border: 0 0% 14.9%;
+		--input: 0 0% 14.9%;
+		--ring: 0 0% 83.1%;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		@apply bg-background text-foreground;
+	}
+}
+
+/* Scrollbar */
+@layer base {
+	div::-webkit-scrollbar,
+	table::-webkit-scrollbar {
+		width: 5px;
+		height: 5px;
+	}
+
+	div::-webkit-scrollbar-thumb,
+	table::-webkit-scrollbar-thumb {
+		background: linear-gradient(90deg, #89c5d4 0%, #4b7685 100%);
+		border-radius: 4px;
+	}
+
+	div::-webkit-scrollbar-track,
+	table::-webkit-scrollbar-track {
+		background: linear-gradient(180deg, #f1f1f1 0%, rgba(241, 241, 241, 0.2) 100%);
+		opacity: 0.8;
+	}
+}
+
+body {
+	background: radial-gradient(38.3% 43.77% at 0% 51.66%, rgba(137, 197, 212, 0.15) 0%, rgba(137, 197, 212, 0) 100%),
+		radial-gradient(37.45% 77.17% at 100% 0.79%, rgba(63, 123, 144, 0.1) 0%, rgba(63, 123, 144, 0) 100%),
+		linear-gradient(0deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.5) 100%), #f8fafc;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	scrollbar-gutter: stable;
+}

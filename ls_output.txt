@@ -1,0 +1,1311 @@
+.:
+
+COMMIT_HISTORY.md  next.config.mjs  package-lock.json  postcss.config.mjs  README.md  tailwind.config.ts
+
+components.json    package.json     pnpm-lock.yaml     public              src        tsconfig.json
+
+
+
+./public:
+
+assets           data        favicon.svg  logos                 logo.svg              next.svg
+
+characteristics  data-logos  icons        logo-square-dark.png  manifest.webmanifest  vercel.svg
+
+
+
+./public/assets:
+
+company  home  information-alert.svg  master-data  pdf.svg  pricing  word.svg
+
+
+
+./public/assets/company:
+
+bg-lines.svg                             leading-in-innovation.png        photo-sergi-corbatera.png
+
+bg-thoughtful-solutions-information.png  our-company.png
+
+empowering-client-triumphs.png           photo-sergi-corbatera-color.png
+
+
+
+./public/assets/home:
+
+bg-hero.jpg  explore-the-activism-landscape.png  landing-2.png  landing-3.png  logo14-2.svg  logo14.svg
+
+
+
+./public/assets/master-data:
+
+germany.svg  united-states.svg
+
+
+
+./public/assets/pricing:
+
+bg-pricing.png
+
+
+
+./public/characteristics:
+
+characteristics-2.png  characteristics-4.png  characteristics-6.png
+
+characteristics-3.png  characteristics-5.png  characteristics-7.png
+
+
+
+./public/data:
+
+blog  highlights
+
+
+
+./public/data/blog:
+
+blog-1.png  blog-2.png  blog-3.png  blog-detail-item1.png  blog-detail-splash.png  blog-splash-1.png
+
+
+
+./public/data/highlights:
+
+1.png  2.png  3.png
+
+
+
+./public/data-logos:
+
+algonquin.png          elliot-investment.png   marriott-vacations.png  starboard-value.png
+
+apple-table-logo.png   elliott-investment.png  masimo.png              third-point.png
+
+ashland.png            eminence-capital.png    pershing-square.png     trian-partners.png
+
+black-rock.png         go-daddy.png            politan-capital.png     value-act-capital.png
+
+caligan-partners.png   icahn-enterprises.png   restaurant-brands.png   vestis.png
+
+coca-cola.png          illumina.png            saba-capital.png        walt-disney.png
+
+corvex-management.png  impactive-capital.png   sachem-head.png
+
+cvr-partners-lp.png    jana-partners.png       salesforce.png
+
+daimler-logo.png       jetblue-airways.png     sirius-point.png
+
+
+
+./public/icons:
+
+icon-arrow-down-stock.svg  icon-close.svg   icon-monitor.svg
+
+icon-arrow-up-stock.svg    icon-filter.svg  icon-notification.svg
+
+
+
+./public/logos:
+
+logo-black.svg  logo-white-on-dark-large.svg  logo-white-on-dark-square.svg  logo-white.svg
+
+
+
+./src:
+
+app  components  constants  lib  middleware.ts  models  utils
+
+
+
+./src/app:
+
+ actions.ts                  auth      favicon.ico   mdx-components.tsx  '(website)'
+
+ amplify-cognito-config.ts   auth.ts   globals.css   middleware.ts
+
+ api                         content   layout.tsx   '(protected)'
+
+
+
+./src/app/api:
+
+auth  security.ts
+
+
+
+./src/app/api/auth:
+
+'[...nextauth]'
+
+
+
+'./src/app/api/auth/[...nextauth]':
+
+blog  dynamodb.service.ts  route.ts  user
+
+
+
+'./src/app/api/auth/[...nextauth]/blog':
+
+blog.service.ts
+
+
+
+'./src/app/api/auth/[...nextauth]/user':
+
+user.service.ts
+
+
+
+./src/app/auth:
+
+_components  confirm-email  layout.tsx  login  onboarding  reset-password  signup
+
+
+
+./src/app/auth/_components:
+
+background-rectangle.tsx  button.tsx  input.tsx  need-help.tsx
+
+
+
+./src/app/auth/confirm-email:
+
+_components  page.tsx
+
+
+
+./src/app/auth/confirm-email/_components:
+
+confirm-email-form.tsx
+
+
+
+./src/app/auth/login:
+
+_components  page.tsx
+
+
+
+./src/app/auth/login/_components:
+
+login-form.tsx
+
+
+
+./src/app/auth/onboarding:
+
+_components  page.tsx
+
+
+
+./src/app/auth/onboarding/_components:
+
+onboarding-form.tsx
+
+
+
+./src/app/auth/reset-password:
+
+_components  page.tsx
+
+
+
+./src/app/auth/reset-password/_components:
+
+back-button.tsx  back-icon.tsx  reset-password-form.tsx
+
+
+
+./src/app/auth/signup:
+
+_components  page.tsx
+
+
+
+./src/app/auth/signup/_components:
+
+requirement-item.tsx  requirements.tsx  signup-form.tsx
+
+
+
+./src/app/content:
+
+def14-monthly-knowledge-april-24-activism-highlights.mdx
+
+def14-monthly-knowledge-jun-24-activism-highlights.mdx
+
+def14-monthly-knowledge-may-24-activism-highlights.mdx
+
+
+
+'./src/app/(protected)':
+
+ admin   _components   layout.tsx   master-data  '(settings)'   universe   vulnerability   wishlisted
+
+
+
+'./src/app/(protected)/admin':
+
+blog  dashboard  hightlights  layout.tsx  situations  users
+
+
+
+'./src/app/(protected)/admin/blog':
+
+ _components  '[id]'   new   page.tsx
+
+
+
+'./src/app/(protected)/admin/blog/_components':
+
+blog-list.tsx  blog-tooltip.tsx
+
+
+
+'./src/app/(protected)/admin/blog/[id]':
+
+__components  page.tsx
+
+
+
+'./src/app/(protected)/admin/blog/[id]/__components':
+
+sensetive-field.tsx
+
+
+
+'./src/app/(protected)/admin/blog/new':
+
+page.tsx
+
+
+
+'./src/app/(protected)/admin/dashboard':
+
+page.tsx
+
+
+
+'./src/app/(protected)/admin/hightlights':
+
+_components  page.tsx
+
+
+
+'./src/app/(protected)/admin/hightlights/_components':
+
+highlights-tooltip.tsx  hightlights-list.tsx
+
+
+
+'./src/app/(protected)/admin/situations':
+
+page.tsx
+
+
+
+'./src/app/(protected)/admin/users':
+
+_components  page.tsx  profile
+
+
+
+'./src/app/(protected)/admin/users/_components':
+
+users-list.tsx  user-tooltip.tsx
+
+
+
+'./src/app/(protected)/admin/users/profile':
+
+'[id]'
+
+
+
+'./src/app/(protected)/admin/users/profile/[id]':
+
+__components  page.tsx
+
+
+
+'./src/app/(protected)/admin/users/profile/[id]/__components':
+
+sensetive-field.tsx
+
+
+
+'./src/app/(protected)/_components':
+
+app-bar  data-visualizations  page-header  providers
+
+
+
+'./src/app/(protected)/_components/app-bar':
+
+app-bar-logo.tsx  app-bar.tsx      logo.tsx       search.tsx        wishlisted.tsx
+
+app-bar-menu.tsx  app-toolbar.tsx  menu-link.tsx  user-profile.tsx
+
+
+
+'./src/app/(protected)/_components/data-visualizations':
+
+quarter-over-quarter-comparison
+
+
+
+'./src/app/(protected)/_components/data-visualizations/quarter-over-quarter-comparison':
+
+actions.ts                                      quarter-over-quarter-comparison-search-button.tsx
+
+quarter-over-quarter-comparison-cell.tsx        quarter-over-quarter-comparison-toolbar.tsx
+
+quarter-over-quarter-comparison-data-table.tsx  types.d.ts
+
+
+
+'./src/app/(protected)/_components/page-header':
+
+filters-button.tsx  page-header-item.tsx  page-title.tsx            selected-filters.tsx
+
+icon-filter.tsx     page-header.tsx       selected-filter-chip.tsx
+
+
+
+'./src/app/(protected)/_components/providers':
+
+chartjs-providers.tsx  protected-providers.tsx
+
+
+
+'./src/app/(protected)/master-data':
+
+activists  campaigns  _components  layout.tsx  targets
+
+
+
+'./src/app/(protected)/master-data/activists':
+
+ actions.ts   _components   data.ts  '[id]'   page.tsx   types.d.ts
+
+
+
+'./src/app/(protected)/master-data/activists/_components':
+
+activists-data-table  activists-left-toolbar.tsx  activists-toolbar.tsx
+
+
+
+'./src/app/(protected)/master-data/activists/_components/activists-data-table':
+
+activists-data-table.tsx  columns.tsx  data-table-pagination.tsx
+
+
+
+'./src/app/(protected)/master-data/activists/[id]':
+
+_components  page.tsx
+
+
+
+'./src/app/(protected)/master-data/activists/[id]/_components':
+
+activist-return-summary  campaigns-return  demands  details  portfolio  presentations
+
+
+
+'./src/app/(protected)/master-data/activists/[id]/_components/activist-return-summary':
+
+activist-return-summary.tsx
+
+
+
+'./src/app/(protected)/master-data/activists/[id]/_components/campaigns-return':
+
+campaigns-return.tsx
+
+
+
+'./src/app/(protected)/master-data/activists/[id]/_components/demands':
+
+demands-chart.tsx  demands.tsx
+
+
+
+'./src/app/(protected)/master-data/activists/[id]/_components/details':
+
+activist-details.tsx
+
+
+
+'./src/app/(protected)/master-data/activists/[id]/_components/portfolio':
+
+portfolio-holdings-chart.tsx  portfolio-quarter-over-quarter-comparison.tsx
+
+portfolio-holdings.tsx        portfolio.tsx
+
+
+
+'./src/app/(protected)/master-data/activists/[id]/_components/presentations':
+
+presentation-item.tsx  presentations.tsx
+
+
+
+'./src/app/(protected)/master-data/campaigns':
+
+ _components   data.ts  '[id]'   page.tsx   _types   types.d.ts
+
+
+
+'./src/app/(protected)/master-data/campaigns/_components':
+
+campaigns-data-table  campaigns-table-left-toolbar.tsx  icon-eeuu.tsx
+
+campaigns-list-n.tsx  campaigns-toolbar.tsx
+
+
+
+'./src/app/(protected)/master-data/campaigns/_components/campaigns-data-table':
+
+campaigns-data-table.tsx  columns.tsx  data-table-pagination.tsx
+
+
+
+'./src/app/(protected)/master-data/campaigns/[id]':
+
+_components  page.tsx  _store
+
+
+
+'./src/app/(protected)/master-data/campaigns/[id]/_components':
+
+campaign-evolution  details  disclosure-period  files
+
+
+
+'./src/app/(protected)/master-data/campaigns/[id]/_components/campaign-evolution':
+
+campaign-evolution-chart.tsx            campaign-evolution-scroller-chart.tsx
+
+campaign-evolution-ownership-chart.tsx  campaign-evolution-ticker.tsx
+
+campaign-evolution-ownership.tsx        campaign-evolution.tsx
+
+
+
+'./src/app/(protected)/master-data/campaigns/[id]/_components/details':
+
+details.tsx
+
+
+
+'./src/app/(protected)/master-data/campaigns/[id]/_components/disclosure-period':
+
+disclosure-period-daily-return-chart.tsx      disclosure-period.tsx
+
+disclosure-period-daily-return.tsx            disclosure-period-volume-chart.tsx
+
+disclosure-period-previous-60-days-chart.tsx  disclosure-period-volume.tsx
+
+disclosure-period-previous-60-days.tsx
+
+
+
+'./src/app/(protected)/master-data/campaigns/[id]/_components/files':
+
+file-item.tsx  files.tsx
+
+
+
+'./src/app/(protected)/master-data/campaigns/[id]/_store':
+
+campaign-details-store.ts
+
+
+
+'./src/app/(protected)/master-data/campaigns/_types':
+
+campaings-list-type.ts
+
+
+
+'./src/app/(protected)/master-data/_components':
+
+back-button.tsx   icon-search.tsx      more-options-button.tsx
+
+icon-options.tsx  master-data-nav.tsx  options-button.tsx
+
+
+
+'./src/app/(protected)/master-data/targets':
+
+ _components   data.ts  '[id]'   page.tsx   types.d.ts
+
+
+
+'./src/app/(protected)/master-data/targets/_components':
+
+targets-data-table
+
+
+
+'./src/app/(protected)/master-data/targets/_components/targets-data-table':
+
+columns.tsx  data-table-pagination.tsx  targets-data-table.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]':
+
+_components  page.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components':
+
+details                performance-vs-peers                    summary-key-financials
+
+insider-transactions   previous-campaigns-on-target            top-institutional-investors
+
+key-valuation-metrics  reference-to-campaigns-in-sector-peers  vulnerability-heatmap
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/details':
+
+details.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/insider-transactions':
+
+insider-transactions-chart.tsx  insider-transactions.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/key-valuation-metrics':
+
+key-valuation-metrics.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/performance-vs-peers':
+
+performance-vs-peers-chart.tsx  performance-vs-peers-table.tsx  performance-vs-peers.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/previous-campaigns-on-target':
+
+previous-campaigns-on-target.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/reference-to-campaigns-in-sector-peers':
+
+reference-to-campaigns-in-sector-peers.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/summary-key-financials':
+
+summary-key-financials.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/top-institutional-investors':
+
+top-institutional-investors-chart.tsx  top-institutional-investors.tsx
+
+
+
+'./src/app/(protected)/master-data/targets/[id]/_components/vulnerability-heatmap':
+
+vulnerability-heatmap.tsx  vulnerability-value-cell.tsx
+
+
+
+'./src/app/(protected)/(settings)':
+
+connections  layout.tsx  profile  settings  subscription
+
+
+
+'./src/app/(protected)/(settings)/connections':
+
+page.tsx
+
+
+
+'./src/app/(protected)/(settings)/profile':
+
+_components  edit  layout.tsx  preview
+
+
+
+'./src/app/(protected)/(settings)/profile/_components':
+
+log-out-button.tsx  photo  profile-link-button.tsx  security
+
+
+
+'./src/app/(protected)/(settings)/profile/_components/photo':
+
+photo-actions.tsx  photo-section.tsx
+
+
+
+'./src/app/(protected)/(settings)/profile/_components/security':
+
+security-section.tsx
+
+
+
+'./src/app/(protected)/(settings)/profile/edit':
+
+page.tsx
+
+
+
+'./src/app/(protected)/(settings)/profile/preview':
+
+page.tsx
+
+
+
+'./src/app/(protected)/(settings)/settings':
+
+_components  page.tsx
+
+
+
+'./src/app/(protected)/(settings)/settings/_components':
+
+date-and-format  notifications
+
+
+
+'./src/app/(protected)/(settings)/settings/_components/date-and-format':
+
+date-and-format-section.tsx  date-and-time-format-select.tsx  time-zone-select.tsx
+
+
+
+'./src/app/(protected)/(settings)/settings/_components/notifications':
+
+email-notifications.tsx  notification-checkbox.tsx  notifications-section.tsx
+
+
+
+'./src/app/(protected)/(settings)/subscription':
+
+_components  page.tsx
+
+
+
+'./src/app/(protected)/(settings)/subscription/_components':
+
+group-svg.tsx  plan-card.tsx  subscription-plans-section.tsx
+
+
+
+'./src/app/(protected)/universe':
+
+activity  characteristics  consts.ts   outcome    return  types.d.ts
+
+advisors  _components      layout.tsx  portfolio  _store
+
+
+
+'./src/app/(protected)/universe/activity':
+
+actions.ts  _components  page.tsx  _store  types.d.ts
+
+
+
+'./src/app/(protected)/universe/activity/_components':
+
+activity-situations  highlights                        information-campaigns-launched.tsx  top-ten
+
+campaigns-launched   information-campaign-results.tsx  size-and-return-of-campaign
+
+
+
+'./src/app/(protected)/universe/activity/_components/activity-situations':
+
+activity-situations-item.tsx      all-activity-situations-modal.tsx
+
+activity-situations.tsx           open-activity-situations-modal-button.tsx
+
+all-activity-situations-list.tsx
+
+
+
+'./src/app/(protected)/universe/activity/_components/campaigns-launched':
+
+all-time-filter-button.tsx              campaing-bar-indicator.tsx
+
+campaigns-launched-chart.tsx            data-range-filter-mode.tsx
+
+campaigns-launched-filter-dropdown.tsx  html-legend-plugin.ts
+
+campaigns-launched-toolbar.tsx          share-campaigns-launched-button.tsx
+
+campaigns-launched.tsx
+
+
+
+'./src/app/(protected)/universe/activity/_components/highlights':
+
+highlight-card.tsx  highlights-carousel.tsx  highlights-toolbar.tsx  highlights.tsx
+
+
+
+'./src/app/(protected)/universe/activity/_components/size-and-return-of-campaign':
+
+campaign-detailed-view-data-table.tsx  campaign-size-and-return.tsx     trend-indicator-cell.tsx
+
+campaign-detailed-view.tsx             campaign-treemap.tsx
+
+campaign-dropdown.tsx                  size-and-return-of-campaign.tsx
+
+
+
+'./src/app/(protected)/universe/activity/_components/top-ten':
+
+largest-campaigns.tsx  most-active.tsx  top-ten-content.tsx  top-ten-tabs.tsx  top-ten.tsx
+
+
+
+'./src/app/(protected)/universe/activity/_store':
+
+universe-activity-store.ts
+
+
+
+'./src/app/(protected)/universe/advisors':
+
+page.tsx
+
+
+
+'./src/app/(protected)/universe/characteristics':
+
+_components  page.tsx  _store
+
+
+
+'./src/app/(protected)/universe/characteristics/_components':
+
+information-characteristics.tsx  length-of-campaigns  position-metrics  target-characteristics
+
+
+
+'./src/app/(protected)/universe/characteristics/_components/length-of-campaigns':
+
+length-of-campaigns-chart.tsx   length-of-campaigns.tsx
+
+length-of-campaigns-legend.tsx  share-length-of-campaigns-button.tsx
+
+
+
+'./src/app/(protected)/universe/characteristics/_components/position-metrics':
+
+position-metrics-chart.tsx   position-metrics-tabs.tsx  share-position-metrics-button.tsx
+
+position-metrics-legend.tsx  position-metrics.tsx
+
+
+
+'./src/app/(protected)/universe/characteristics/_components/target-characteristics':
+
+share-target-characteristics-button.tsx  target-characteristics-legend.tsx  target-characteristics.tsx
+
+target-characteristics-chart.tsx         target-characteristics-tabs.tsx
+
+
+
+'./src/app/(protected)/universe/characteristics/_store':
+
+characteristics-store.ts
+
+
+
+'./src/app/(protected)/universe/_components':
+
+data-time-filter  filters  info-alert.tsx  information.tsx
+
+
+
+'./src/app/(protected)/universe/_components/data-time-filter':
+
+data-time-filter-dialog.tsx  use-data-time-filter-store.ts
+
+
+
+'./src/app/(protected)/universe/_components/filters':
+
+button-filters-delete.tsx  filters-collapsible.tsx  filters-side-menu-tabs.tsx  saved-filters.tsx
+
+filters-arrow-down.tsx     filters-form.tsx         filters-side-menu.tsx
+
+filters-arrow-up.tsx       filters-separator.tsx    saved-filter-item.tsx
+
+
+
+'./src/app/(protected)/universe/outcome':
+
+_components  page.tsx  _store
+
+
+
+'./src/app/(protected)/universe/outcome/_components':
+
+board-representation-demands  information-outcome.tsx                        outcomes
+
+board-sets-won                long-term-abnormal-return-by-campaign-outcome  proxy-contest-result
+
+
+
+'./src/app/(protected)/universe/outcome/_components/board-representation-demands':
+
+board-representation-demands-chart.tsx  board-representation-demans-toolbar.tsx
+
+board-representation-demands.tsx
+
+
+
+'./src/app/(protected)/universe/outcome/_components/board-sets-won':
+
+board-sets-won-chart.tsx  board-sets-won-toolbar.tsx  board-sets-won.tsx
+
+
+
+'./src/app/(protected)/universe/outcome/_components/long-term-abnormal-return-by-campaign-outcome':
+
+long-term-abnormal-return-by-campaign-outcome-chart.tsx
+
+long-term-abnormal-return-by-campaign-outcome-toolbar.tsx
+
+long-term-abnormal-return-by-campaign-outcome.tsx
+
+
+
+'./src/app/(protected)/universe/outcome/_components/outcomes':
+
+outcomes-chart.tsx  outcomes-toolbar.tsx  outcomes.tsx
+
+
+
+'./src/app/(protected)/universe/outcome/_components/proxy-contest-result':
+
+proxy-contest-result-chart.tsx  proxy-contest-result-toolbar.tsx  proxy-contest-result.tsx
+
+
+
+'./src/app/(protected)/universe/outcome/_store':
+
+outcomes-store.ts
+
+
+
+'./src/app/(protected)/universe/portfolio':
+
+actions.ts  _components  page.tsx  _store  types.d.ts
+
+
+
+'./src/app/(protected)/universe/portfolio/_components':
+
+common-holdings            porfolio-follower-return        quarter-over-quarter-comparison
+
+information-portfolio.tsx  portfolio-composition-analysis  top-performing-portfolios
+
+
+
+'./src/app/(protected)/universe/portfolio/_components/common-holdings':
+
+common-holdings-treemap.tsx  common-holdings.tsx
+
+
+
+'./src/app/(protected)/universe/portfolio/_components/porfolio-follower-return':
+
+portfolio-follower-return-chart.tsx   share-portfolio-follower-return-button.tsx
+
+portfolio-follower-return-legend.tsx  show-abnormal-switch.tsx
+
+portfolio-follower-return.tsx
+
+
+
+'./src/app/(protected)/universe/portfolio/_components/portfolio-composition-analysis':
+
+portfolio-composition-analysis-chart.tsx   portfolio-composition-analysis.tsx
+
+portfolio-composition-analysis-legend.tsx  share-portfolio-composition-analysis.tsx
+
+portfolio-composition-analysis-tabs.tsx
+
+
+
+'./src/app/(protected)/universe/portfolio/_components/quarter-over-quarter-comparison':
+
+quarter-over-quarter-comparison.tsx
+
+
+
+'./src/app/(protected)/universe/portfolio/_components/top-performing-portfolios':
+
+top-performing-portfolios-chart.tsx  top-performing-portfolios.tsx
+
+
+
+'./src/app/(protected)/universe/portfolio/_store':
+
+portfolio-store.ts
+
+
+
+'./src/app/(protected)/universe/return':
+
+_components  page.tsx  _store
+
+
+
+'./src/app/(protected)/universe/return/_components':
+
+abnormal-return-by-demand-type  information-return.tsx  top-performing-activists
+
+campaign-investment-returns     return-analytics        top-performing-campaigns
+
+
+
+'./src/app/(protected)/universe/return/_components/abnormal-return-by-demand-type':
+
+abnormal-return-by-demand-type-chart.tsx   abnormal-return-by-demand-type.tsx
+
+abnormal-return-by-demand-type-legend.tsx  share-abnormal-return-by-demand-type-button.tsx
+
+abnormal-return-by-demand-type-tabs.tsx
+
+
+
+'./src/app/(protected)/universe/return/_components/campaign-investment-returns':
+
+campaign-investment-returns-chart.tsx   campaign-investment-returns.tsx
+
+campaign-investment-returns-legend.tsx  share-campaign-investment-returns-button.tsx
+
+campaign-investment-returns-tabs.tsx    show-abnormal-return-switch.tsx
+
+
+
+'./src/app/(protected)/universe/return/_components/return-analytics':
+
+return-analytics-chart.tsx  return-analytics.tsx               show-abnormal-switch.tsx
+
+return-analytics-tabs.tsx   share-return-analytics-button.tsx
+
+
+
+'./src/app/(protected)/universe/return/_components/top-performing-activists':
+
+top-performing-activists.tsx
+
+
+
+'./src/app/(protected)/universe/return/_components/top-performing-campaigns':
+
+top-performing-campaigns.tsx
+
+
+
+'./src/app/(protected)/universe/return/_store':
+
+universe-return-store.ts
+
+
+
+'./src/app/(protected)/universe/_store':
+
+use-universe-filters-store.ts
+
+
+
+'./src/app/(protected)/vulnerability':
+
+_components  layout.tsx  page.tsx
+
+
+
+'./src/app/(protected)/vulnerability/_components':
+
+information-vulnerability.tsx  sector-vulnerability  vulnerability-matrix  vulnerability-resume
+
+
+
+'./src/app/(protected)/vulnerability/_components/sector-vulnerability':
+
+sector-vulnerability-chart.tsx  sector-vulnerability.tsx
+
+
+
+'./src/app/(protected)/vulnerability/_components/vulnerability-matrix':
+
+vulnerability-matrix-chart.tsx
+
+
+
+'./src/app/(protected)/vulnerability/_components/vulnerability-resume':
+
+number-of-companies-svg.tsx  vulnerability-card.tsx  vulnerability-resume.tsx  vulnerability-svg.tsx
+
+
+
+'./src/app/(protected)/wishlisted':
+
+activists  campaigns  target
+
+
+
+'./src/app/(protected)/wishlisted/activists':
+
+page.tsx
+
+
+
+'./src/app/(protected)/wishlisted/campaigns':
+
+page.tsx
+
+
+
+'./src/app/(protected)/wishlisted/target':
+
+page.tsx
+
+
+
+'./src/app/(website)':
+
+blog     _components    layout.tsx  pending-review  privacy-policy
+
+company  cookie-policy  page.tsx    pricing         terms-and-conditions
+
+
+
+'./src/app/(website)/blog':
+
+ _components   _constants   page.tsx  '[slug]'
+
+
+
+'./src/app/(website)/blog/_components':
+
+blog-post.tsx  icon-comment.tsx  icon-like.tsx  icon-more-options.tsx  icon-view.tsx
+
+
+
+'./src/app/(website)/blog/_constants':
+
+blog-items.ts
+
+
+
+'./src/app/(website)/blog/[slug]':
+
+_components  page.tsx
+
+
+
+'./src/app/(website)/blog/[slug]/_components':
+
+blog-detail-splash.tsx  chip-reading-time.tsx  icon-14.tsx  icon-clock.tsx  recent-posts.tsx
+
+
+
+'./src/app/(website)/company':
+
+_components  page.tsx
+
+
+
+'./src/app/(website)/company/_components':
+
+about-us.tsx  more-info   our-company                           unique-features
+
+achievements  objectives  thoughtful-solutions-information.tsx
+
+
+
+'./src/app/(website)/company/_components/achievements':
+
+achievements-item.tsx  achievements.tsx
+
+
+
+'./src/app/(website)/company/_components/more-info':
+
+more-info-content.tsx  more-info-item.tsx  more-info-tabs.tsx  more-info.tsx
+
+
+
+'./src/app/(website)/company/_components/objectives':
+
+objectives-item.tsx  objectives.tsx
+
+
+
+'./src/app/(website)/company/_components/our-company':
+
+linkedin-color-button.tsx  mail-button.tsx  our-company.tsx
+
+
+
+'./src/app/(website)/company/_components/unique-features':
+
+unique-features-item.tsx  unique-features.tsx
+
+
+
+'./src/app/(website)/_components':
+
+app-bar  explore-the-activism-landscape  features  footer  hero
+
+
+
+'./src/app/(website)/_components/app-bar':
+
+app-bar-logo.tsx       app-bar-menu.tsx     app-bar.tsx            hamburger-button.tsx  login-button.tsx
+
+app-bar-menu-item.tsx  app-bar-toolbar.tsx  free-trial-button.tsx  icon-login.tsx
+
+
+
+'./src/app/(website)/_components/explore-the-activism-landscape':
+
+activism-carousel.tsx  explore-the-activism-landscape.tsx
+
+
+
+'./src/app/(website)/_components/features':
+
+bg-stars.tsx  features-item.tsx  features.tsx
+
+
+
+'./src/app/(website)/_components/footer':
+
+footer-link-item.tsx  footer.tsx  linkedin-logo.tsx  request-a-free-trial-button.tsx  twitter-logo.tsx
+
+
+
+'./src/app/(website)/_components/hero':
+
+hero-bg.tsx  hero.tsx  icon-mouse.tsx
+
+
+
+'./src/app/(website)/cookie-policy':
+
+page.tsx
+
+
+
+'./src/app/(website)/pending-review':
+
+page.tsx
+
+
+
+'./src/app/(website)/pricing':
+
+_components  _constants  page.tsx
+
+
+
+'./src/app/(website)/pricing/_components':
+
+bg-pricing.tsx  icon-question.tsx  pricing-card.tsx
+
+
+
+'./src/app/(website)/pricing/_constants':
+
+pricing.ts
+
+
+
+'./src/app/(website)/privacy-policy':
+
+page.tsx
+
+
+
+'./src/app/(website)/terms-and-conditions':
+
+page.tsx
+
+
+
+./src/components:
+
+chartjs                download-section-as-image-button.tsx  search-button.tsx  ui
+
+chart-legend-item.tsx  icons                                 section-card.tsx   wishlist-button.tsx
+
+
+
+./src/components/chartjs:
+
+bar-stacked-100-chart.tsx  chartjs.tsx  chartjs-utils.ts
+
+
+
+./src/components/icons:
+
+ base-icon.tsx       icon-close.tsx    icon-monitor.tsx        icon-search.tsx  'Rectangle 1028.svg'
+
+ icon-calendar.tsx   icon-filter.tsx   icon-notification.tsx   icon-share.tsx
+
+
+
+./src/components/ui:
+
+badge.tsx     checkbox.tsx     dropdown-menu.tsx  pagination.tsx   sheet.tsx     tabs.tsx
+
+button.tsx    collapsible.tsx  form.tsx           radio-group.tsx  skeleton.tsx  tag-item.tsx
+
+calendar.tsx  data-table.tsx   input.tsx          select.tsx       switch.tsx    textarea.tsx
+
+carousel.tsx  dialog.tsx       label.tsx          separator.tsx    table.tsx     tooltip.tsx
+
+
+
+./src/constants:
+
+chart-colors.ts
+
+
+
+./src/lib:
+
+cognitoActions.ts  utils.ts
+
+
+
+./src/models:
+
+nextauth.d.ts
+
+
+
+./src/utils:
+
+amplify-server-utils.ts  download-chart.ts     getUserId.ts  text-utils.ts     utils.ts
+
+aws-utils.ts             get-error-message.ts  mdx-utils.ts  treemap-utils.ts
+
+romantsyhulov@pop-os:~/Desktop/expired projects/lint and publish/def14$ 
